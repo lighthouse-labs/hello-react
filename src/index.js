@@ -1,10 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import './index.css';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+function handleInput() {
+  // your code here
+}
+
+function Button(props) {
+  // your code here
+}
+
+function NameField(props) {
+  // your code here
+}
+
+function Application(props) {
+  return (
+    <main>
+      Hello
+    </main>
+  );
+}
+
+ReactDOM.render(<Application />, document.getElementById("root"));
