@@ -16,7 +16,7 @@ function Application() {
 
   return (
     <main>
-      {/* your code here */}
+      {/* your code here -- this entire line and curly braces should be removed */}
       <h1>Hello</h1>
     </main>
   );
