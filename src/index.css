@@ -10,7 +10,6 @@ body {
   justify-content: center;
   background-color: #48dbfb;
   color: white;
-  font-size: 3em;
 }
 
 main {
@@ -52,6 +51,6 @@ input:focus {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #fff;
 }

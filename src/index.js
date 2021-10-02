@@ -1,23 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-function handleInput() {
-  // your code here
-}
+function Application() {
 
-function Button(props) {
   // your code here
-}
+  
+  function reset() {
+    // your code here
+  }
 
-function NameField(props) {
-  // your code here
-}
+  function Button(props) {
+    // your code here
+  }
 
-function Application(props) {
   return (
     <main>
-      Hello
+      {/* your code here */}
+      <h1>Hello</h1>
     </main>
   );
 }
