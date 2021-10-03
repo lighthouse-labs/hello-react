@@ -17,7 +17,7 @@ function Application() {
   return (
     <main>
       {/* your code here -- this entire line including the curly braces can be removed */}
-      <h1>Hello, React</h1>
+      <h1>Hello React</h1>
     </main>
   );
 }
