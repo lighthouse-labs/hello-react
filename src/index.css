@@ -53,4 +53,9 @@ input:focus {
 h1 {
   font-size: 3rem;
   color: #fff;
+  word-break: break-all;
+}
+
+button, input {
+  max-width: 484px;
 }
