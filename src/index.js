@@ -2,17 +2,18 @@ import React, { useState, Fragment } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-function Application() {
+const Button = (props) => {
+  // your code here
+};
+
+const Application = () => {
 
   // your code here
 
-  function reset() {
+  const reset = () => {
+    console.log("reset");
     // your code here
-  }
-
-  function Button(props) {
-    // your code here
-  }
+  };
 
   return (
     <main>
@@ -20,6 +21,6 @@ function Application() {
       <h1>Hello React</h1>
     </main>
   );
-}
+};
 
 ReactDOM.render(<Application />, document.getElementById("root"));
