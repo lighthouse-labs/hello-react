@@ -1,14 +1,16 @@
 {
   "name": "hello-react",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
+  "type": "module",
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "scripts": {
-    "start": "react-scripts start"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "browserslist": {
     "production": [
@@ -21,5 +23,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.7",
+    "@babel/preset-react": "^7.26.3",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "globals": "13.24.0",
+    "identity-obj-proxy": "^3.0.0",
+    "sass": "1.59.2",
+    "vite": "4.4.2"
   }
 }
