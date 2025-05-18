@@ -1,26 +1,9 @@
-import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
+// src/main.jsx
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App.jsx';
 import './index.css';
 
-const Button = (props) => {
-  // your code here
-};
-
-const Application = () => {
-
-  // your code here
-
-  const reset = () => {
-    console.log("reset");
-    // your code here
-  };
-
-  return (
-    <main>
-      {/* your code here -- this entire line including the curly braces can be removed */}
-      <h1>Hello React</h1>
-    </main>
-  );
-};
-
-ReactDOM.render(<Application />, document.getElementById("root"));
+const container = document.getElementById('root');
+const root = ReactDOM.createRoot(container);
+root.render(<App />);
