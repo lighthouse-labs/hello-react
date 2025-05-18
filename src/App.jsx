@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Button.jsx';
+import { Button } from './Button.jsx'
 
 const App = () => {
   // your code here
